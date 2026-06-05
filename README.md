@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/mukesh-tirumani/">LinkedIn</a> ·
   <a href="mailto:tirumanimukesh@gmail.com">Email</a>
+  <a href="https://portfolio-lac-six-23.vercel.app/">🌐 Live Demo</a> ·
 </p>
 
 ---
@@ -124,6 +125,8 @@ src/
 | Job Application Portal | React.js, Node.js, Express.js, MongoDB, JWT | RBAC, JWT authentication, job management, applicant tracking, REST APIs |
 | React Admin Dashboard | React.js, Vite, Material UI, Nivo Charts | Dark/Light mode, analytics dashboard, DataGrid, FullCalendar, responsive UI |
 | Fraud Detection Hub | React.js, Express.js, PostgreSQL, Drizzle ORM | Fraud monitoring, risk analysis, investigation workflows, interactive dashboards |
+| Full Stack Developer Portfolio | React.js, TypeScript, Tailwind CSS, Vite, React Query, Zod, Resend | Responsive design, interactive animations, project showcase, contact form integration, automated Vercel deployment |
+
 
 ### 📜 Experience
 - **MERN Full Stack Development Intern** — EduSkills Academy *(2026)*
@@ -185,7 +188,14 @@ npm run preview
 | 📱 Phone | +92 7386069829 |
 | 💼 LinkedIn | [Mukesh-Tirumani](https://www.linkedin.com/in/mukesh-tirumani/) |
 | 🐙 GitHub | [tirumanimukesh](https://github.com/tirumanimukesh-dev/) |
+| 🌐 Portfolio | [portfolio-lac-six-23.vercel.app](https://portfolio-lac-six-23.vercel.app/) |
 
 ---
 
+## 🌐 Deployment
 
+This portfolio is deployed on **Vercel** with automatic deployments from the main branch.
+
+**Live URL:** [portfolio-lac-six-23.vercel.app](https://portfolio-lac-six-23.vercel.app/)
+
+---

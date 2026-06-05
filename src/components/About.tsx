@@ -4,10 +4,6 @@ import { useScrollReveal, useCountUp } from "@/hooks/useAnimations";
 
 const About = () => {
   const { ref: sectionRef, isRevealed: sectionRevealed } = useScrollReveal();
-  // const { ref: statsRef, isRevealed: statsRevealed } = useScrollReveal();
-  // const { count: alertCount, ref: alertRef } = useCountUp(30, 2000);
-  // const { count: attackScenarios, ref: attackRef } = useCountUp(5, 1500); 
-  // const { count: projectCount, ref: projectRef } = useCountUp(7, 1800);
 
   const focusAreas = [
     {
@@ -118,35 +114,6 @@ const About = () => {
                   Software Developer.
                 </p>
               </div>
-
-              {/* Stats */}
-              {/* <div
-                ref={statsRef}
-                className={`grid grid-cols-3 gap-4 transition-all duration-700 delay-200 ${
-                  statsRevealed
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-8"
-                }`}
-              >
-                <div className="cyber-card text-center py-5 group" ref={alertRef}>
-                  <div className="stat-number">{alertCount}+</div>
-                  <div className="text-xs text-muted-foreground mt-1 group-hover:text-foreground/70 transition-colors">
-                    Daily Alerts Triaged
-                  </div>
-                </div>
-                <div className="cyber-card text-center py-5 group" ref={projectRef}>
-                  <div className="stat-number">{projectCount}</div>
-                  <div className="text-xs text-muted-foreground mt-1 group-hover:text-foreground/70 transition-colors">
-                    Projects Built
-                  </div>
-                </div>
-                <div className="cyber-card text-center py-5 group" ref={attackRef}>
-                  <div className="stat-number">{attackScenarios}+</div>
-                  <div className="text-xs text-muted-foreground mt-1 group-hover:text-foreground/70 transition-colors">
-                    Attack Scenarios
-                  </div>
-                </div>
-              </div> */}
             </div>
 
             {/* Right Column - Focus Areas */}

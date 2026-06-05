@@ -24,31 +24,18 @@ const Resume = () => {
         "MERN Full Stack Development Intern",
         "EduSkills Academy",
         "Mar 2026",
-        // "Organizer & Author — RDX National CTF",
       ],
     },
     {
       icon: Award,
       title: "Achievements",
       items: [
-        // "3rd Place — SudoFuzzers CTF (Forensics & OSINT)",
-        // "7th Place — CyberFest 2025 (National CTF)",
-        // "Star of CyberFest '25 — Individual Recognition Award",
         "Participant — Vishwanova 2026 National-Level Project Competition (MIT-WPU Pune)",
         "Participant — RIFT'26 Hackathon (Physics Wallah Institute of Innovation)",
         "First Round Qualifier — Smart India Hackathon 2025 (National Innovation Competition)"
 
       ],
     },
-    // {
-    //   icon: Shield,
-    //   title: "Security & Forensics",
-    //   items: [
-    //     "SOC Operations, Alert Triage, Incident Response, DFIR",
-    //     "Splunk, Wazuh, Elastic Stack (ELK), Wireshark, Volatility 3",
-    //     "MITRE ATT&CK, Memory Forensics, PCAP Analysis, OSINT",
-    //   ],
-    // },
     {
       icon: Code,
       title: "Programming Languages",

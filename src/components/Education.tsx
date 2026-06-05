@@ -23,7 +23,6 @@ const educations: EducationItem[] = [
     period: "Sept 2023 – Present",
     highlights: [
       "Currently pursuing an undergraduate degree in Computer Science and Engineering, with a strong focus on software engineering and full-stack web development. Actively working on academic and personal projects using modern technologies to build practical solutions and strengthen software development skills.",
-      // "Contributed to proposal preparation and AI-driven project initiatives, demonstrating understanding of enterprise AI integration approaches and best practices across industries.",
     ],
   },
   {
@@ -34,11 +33,7 @@ const educations: EducationItem[] = [
     period: "Sept 2021 - Mar 2023",
     highlights: [
       "Completed Intermediate Education with specialization in Mathematics, Physics, and Chemistry (MPC), developing strong analytical, logical reasoning, and problem-solving skills that laid the foundation for further studies in Computer Science and Engineering.",
-      // "Conducted in-depth analysis of 500+ endpoint telemetry records, machine behavior patterns, and network logs per week to detect IOCs; documented findings in structured incident reports, improving documentation quality by 30%.",
-      // "Constructed a personal SOC lab using Wazuh and ELK Stack to simulate 5+ attack scenarios (lateral movement, privilege escalation, credential dumping), then refined detection rules, cutting MTTD by 30%.",
     ],
-    // certificateUrl: "/Tech%20Hierarchy%20Internship%20Certificate.pdf",
-    // certificateLabel: "Certificate of Completion",
   },
   {
     icon: School,
@@ -48,31 +43,8 @@ const educations: EducationItem[] = [
     period: "June 2020 – June 2021",
     highlights: [
       "Completed Secondary School Education with a strong foundation in core academic subjects, fostering analytical thinking, problem-solving abilities, and a disciplined approach to learning, while building the fundamental knowledge and skills necessary for higher education and future academic growth.",
-      // "Required participants to analyse a Windows memory image with Volatility 3 to identify process injection, extract NTLM hashes, and recover plaintext credentials — completed by fewer than 10% of competitors.",
     ],
   },
-  // {
-  //   icon: Award,
-  //   type: "Organizer & Author",
-  //   title: "RDX National CTF",
-  //   organization: "RDX",
-  //   period: "Jun 2025 – Jul 2025",
-  //   highlights: [
-  //     "Authored and deployed 6 challenges covering log analysis, network traffic analysis, suspicious artifact investigation, and file-embedded forensics for a national-level CTF.",
-  //     "Challenges assessed blue-team and DFIR skills for 100+ participants under time-constrained conditions.",
-  //   ],
-  // },
-  // {
-  //   icon: Monitor,
-  //   type: "Technical Team & Head of Finance",
-  //   title: "Cyber Space Legion (CSL)",
-  //   organization: "FAST NUCES - University Cybersecurity Society",
-  //   period: "Sep 2024 – Present",
-  //   highlights: [
-  //     "Technical Team Member: CTF participation, forensics challenge authoring, and blue-team skills workshops for junior members.",
-  //     "Head of Finance (2025 – Present): Led finance team for flagship events, managed sponsor relations, and oversaw budgeting and financial reporting.",
-  //   ],
-  // },
 ];
 
 
@@ -203,59 +175,6 @@ const Education = () => {
               ))}
             </div>
           </div>
-
-          {/* Achievements Section */}
-          {/* <div
-            ref={achieveRef}
-            className={`mt-20 transition-all duration-700 ${
-              achieveRevealed ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
-          >
-            <h3 className="text-2xl font-bold text-center mb-8 gradient-text">
-              Competition Achievements
-            </h3>
-            <div className="grid md:grid-cols-3 gap-4">
-              {achievements.map((a, i) => (
-                <div
-                  key={a.title}
-                  className="cyber-card text-center group"
-                  style={{ transitionDelay: `${i * 100}ms` }}
-                >
-                  <div className="flex justify-center mb-4">
-                    <div className="p-3 bg-primary/10 rounded-xl transition-all duration-500 group-hover:bg-primary/20 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/10">
-                      <a.icon className="w-7 h-7 text-primary" />
-                    </div>
-                  </div>
-                  <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors duration-300">
-                    {a.title}
-                  </h4>
-                  <p className="text-xs text-primary/80 font-medium mb-2">
-                    {a.detail}
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {a.description}
-                  </p>
-                  {a.certificateUrl && (
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="mt-3 text-primary hover:bg-primary/10 gap-1 transition-all duration-300"
-                      asChild
-                    >
-                      <a
-                        href={a.certificateUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span>View Certificate</span>
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </a>
-                    </Button>
-                  )}
-                </div>
-              ))}
-            </div> 
-          </div>*/}
         </div>
       </div>
     </section>

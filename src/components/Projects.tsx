@@ -61,20 +61,6 @@ const projects: Project[] = [
     year: "2026",
     githubUrl: "https://github.com/tirumanimukesh-dev/Fraud-Detection-Hub",
   },
-  // {
-    // icon: Cpu,
-    // title: "Dizzy Walk — Maze Adventure Game",
-    // category: "x86 Assembly Application",
-    // description:
-    //   "Developed a real-time graphical maze-adventure game entirely in x86 Assembly Language (2,700+ lines of MASM32), featuring a 20×30 obstacle grid rendered through the Windows GDI.",
-    // highlights: [
-    //   "Designed 8 custom data structures, 6 reusable macros, and 35+ procedures using STDCALL calling convention",
-    //   "Proper stack frame management with Win32 API and GDI rendering",
-    // ],
-    // tools: ["x86 Assembly", "MASM32", "Win32 API", "GDI"],
-    // year: "2026",
-    // githubUrl: "https://github.com/UsmanPrime/Dizzy-Walk",
-  // },
   {
     icon: Globe,
     title: "Full Stack Developer Portfolio",
@@ -88,36 +74,8 @@ const projects: Project[] = [
     tools: ["React", "TypeScript", "Tailwind CSS", "Vite", "React Query", "Zod", "Resend"],
     year: "2026",
     githubUrl: "https://github.com/tirumanimukesh-dev/Portfolio",
-    // liveUrl: "https://usmanprime-portfolio.vercel.app/",
+    liveUrl: "https://portfolio-lac-six-23.vercel.app/",
   },
-  // {
-  //   icon: Briefcase,
-  //   title: "OSIM — Organizational Simulation System",
-  //   category: "Enterprise Simulation",
-  //   description:
-  //     "Architected an enterprise-style simulation with 12+ class hierarchies following SOLID principles; persisted 1,000+ records with zero data loss.",
-  //   highlights: [
-  //     "Modeled 5 distinct business entity types with complex inter-class relationships",
-  //     "File-based persistence with modular architecture",
-  //   ],
-  //   tools: ["C++", "OOP", "SOLID", "File I/O"],
-  //   year: "2024",
-  //   githubUrl: "https://github.com/UsmanPrime/OSIM---Organizational-Simulation",
-  // },
-  // {
-  //   icon: ShoppingCart,
-  //   title: "SecureShop",
-  //   category: "Secure Shopping Platform",
-  //   description:
-  //     "Constructed a secure shopping platform with multi-factor authentication and input-sanitization routines blocking injection-style attacks; protected 50+ simulated user transaction records.",
-  //   highlights: [
-  //     "Multi-factor authentication with input validation",
-  //     "Modular architecture with O(log n) search",
-  //   ],
-  //   tools: ["C++", "File I/O", "Authentication"],
-  //   year: "2024",
-  //   githubUrl: "https://github.com/UsmanPrime/SecureShop",
-  // },
 ];
 
 const Projects = () => {

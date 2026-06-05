@@ -190,53 +190,6 @@ const Hero = () => {
               Download Resume
             </Button>
           </div>
-
-          {/* Terminal Preview */}
-          {/* <div
-            className="mt-16 max-w-2xl mx-auto animate-fade-in-up"
-            style={{ animationDelay: "0.55s" }}
-          >
-            <div className="terminal-panel group">
-              <div className="terminal-header">
-                <div className="terminal-dot bg-destructive/70" />
-                <div className="terminal-dot bg-yellow-500/70" />
-                <div className="terminal-dot bg-accent/70" />
-                <span className="text-xs text-muted-foreground ml-2 font-mono">
-                  security_monitor.log
-                </span>
-              </div>
-              <div className="p-5 font-mono text-sm space-y-1.5">
-                <div className="flex gap-3 text-muted-foreground">
-                  <span className="text-primary">[INFO]</span>
-                  <span className={isComplete ? "" : "typing-cursor"}>
-                    {displayedText}
-                  </span>
-                </div>
-                {isComplete && (
-                  <>
-                    <div className="flex gap-3 text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-                      <span className="text-accent">[OK]</span>
-                      <span>Wazuh + Splunk + ELK telemetry pipelines active</span>
-                    </div>
-                    <div className="flex gap-3 text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-                      <span className="text-accent">[OK]</span>
-                      <span>MITRE ATT&CK TTP correlation engine online</span>
-                    </div>
-                    <div className="flex gap-3 text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-                      <span className="text-accent">[OK]</span>
-                      <span>IOC analysis & alert triage workflow synchronized</span>
-                    </div>
-                    <div className="flex gap-3 animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
-                      <span className="text-primary">[READY]</span>
-                      <span className="text-foreground font-medium">
-                        Monitoring 30+ daily security events...
-                      </span>
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
 

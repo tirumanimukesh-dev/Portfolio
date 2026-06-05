@@ -107,8 +107,8 @@ const Contact = () => {
     {
       icon: Globe,
       label: "Portfolio",
-      href: "https://mukeshtirumani-portfolio.vercel.app/",
-      value: "mukeshtirumani-portfolio.vercel.app",
+      href: "https://portfolio-lac-six-23.vercel.app/",
+      value: "portfolio-lac-six-23.vercel.app",
     },
   ];
 
@@ -290,30 +290,6 @@ const Contact = () => {
                   ))}
                 </div>
               </div>
-
-              {/* Security Note */}
-              {/* <div className="terminal-panel">
-                <div className="terminal-header">
-                  <div className="terminal-dot bg-accent/70" />
-                  <span className="text-xs text-muted-foreground ml-2 font-mono">
-                    secure_contact.log
-                  </span>
-                </div>
-                <div className="p-4 font-mono text-sm space-y-1">
-                  <div className="flex gap-3 text-muted-foreground">
-                    <span className="text-accent">[AVAILABILITY]</span>
-                    <span>Open for internships, collaborations, and development opportunities</span>
-                  </div>
-                  <div className="flex gap-3 text-muted-foreground">
-                    <span className="text-primary">[RESPONSE]</span>
-                    <span>Expected within 24-48 hours</span>
-                  </div>
-                  <div className="flex gap-3 text-muted-foreground">
-                    <span className="text-accent">[STATUS]</span>
-                    <span>Actively seeking Full Stack Developer internship opportunities</span>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
