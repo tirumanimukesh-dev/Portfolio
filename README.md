@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mukesh-tirumani/">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/mukesh-tirumani/">· LinkedIn</a> ·
   <a href="mailto:tirumanimukesh@gmail.com">Email</a> ·
-  <a href="https://portfolio-lac-six-23.vercel.app/">Live Demo</a> ·
+  <a href="https://portfolio-lac-six-23.vercel.app/">Live Demo</a>
 </p>
 
 ---
