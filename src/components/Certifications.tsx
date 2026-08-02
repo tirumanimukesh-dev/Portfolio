@@ -22,11 +22,35 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
-    name: "Node Basic",
+  name: "Frontend developer(React)",
+  issuer: "HackerRank",
+  status: "completed",
+  date: "2026",
+  certificateUrl: "https://www.hackerrank.com/certificates/iframe/cdd0fc8c72c7",
+  certificateLabel: "View Certificate",
+  highlights: [
+    "React fundamentals & components",
+    "State management and Hooks",
+  ],
+},
+{
+  name: "Problem Solving (Intermediate)",
+  issuer: "HackerRank",
+  status: "completed",
+  date: "2026",
+  certificateUrl: "https://www.hackerrank.com/certificates/iframe/53e766730a3b",
+  certificateLabel: "View Certificate",
+  highlights: [
+    "Data Structures & Algorithms",
+    "Efficient problem-solving techniques",
+  ],
+},
+  {
+    name: "Node Intermediate",
     issuer: "HackerRank",
     status: "completed",
     date: "2026",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/b30a953e168c",
+    certificateUrl: "https://www.hackerrank.com/certificates/iframe/e1d4a9f7396d",
     certificateLabel: "View Certificate",
     highlights: [
       "Node.js fundamentals",
@@ -34,11 +58,11 @@ const certifications: Certification[] = [
     ],
   },
   {
-    name: "Javascript Basic",
+    name: "Javascript Intermediate",
     issuer: "HackerRank",
     status: "completed",
     date: "2025",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/2f1677ac0100",
+    certificateUrl: "https://www.hackerrank.com/certificates/iframe/4e30cd778210",
     certificateLabel: "View Certificate",
     highlights: [
       "JavaScript syntax and logic",
