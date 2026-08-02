@@ -1,4 +1,4 @@
-import { ExternalLink, Globe, Code, Gamepad2, ShoppingCart, FileSearch2Icon, Briefcase, Network, Cpu } from "lucide-react";
+import { ExternalLink, Globe, Code, Gamepad2, ShoppingCart, FileSearch2Icon, Briefcase, Network, Cpu, SparklesIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useScrollReveal } from "@/hooks/useAnimations";
 
@@ -31,6 +31,36 @@ const projects: Project[] = [
     githubUrl: "https://github.com/tirumanimukesh-dev/Job_Portal",
     liveUrl: "https://job-portal-9tfe.onrender.com",
   },
+  {
+  icon: SparklesIcon,
+  title: "CreativeAI",
+  category: "AI SaaS Platform (PERN Stack)",
+  description:
+    "Engineered a full-stack AI SaaS platform with AI-powered image generation, background removal, object removal, article writing, blog title generation, and story generation using React, Express, PostgreSQL, OpenRouter AI, Clerk, and Cloudinary.",
+
+  highlights: [
+    "Developed AI-powered tools by integrating OpenRouter AI with secure REST APIs for image generation, content creation, and image editing workflows.",
+    "Built a scalable PERN architecture with Clerk authentication, Cloudinary media management, PostgreSQL (Neon), and a responsive React dashboard with community sharing features.",
+    "Deployed the production-ready application on Vercel with modular architecture, optimized API performance, and secure cloud-based media storage.",
+  ],
+
+  tools: [
+    "React 19",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "OpenRouter AI",
+    "Clerk",
+    "Cloudinary",
+    "Tailwind CSS",
+    "Axios",
+    "Vercel",
+  ],
+
+  year: "2026",
+  githubUrl: "https://github.com/tirumanimukesh-dev/CreativeAI",
+  liveUrl: "https://creative-ai-three-pink.vercel.app",
+},
   {
     icon: Gamepad2,
     title: "React Admin Dashboard",
