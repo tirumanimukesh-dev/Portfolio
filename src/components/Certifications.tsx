@@ -22,7 +22,7 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
-  name: "Frontend developer(React)",
+  name: "Frontend developer (React)",
   issuer: "HackerRank",
   status: "completed",
   date: "2026",
@@ -46,7 +46,7 @@ const certifications: Certification[] = [
   ],
 },
   {
-    name: "Node Intermediate",
+    name: "Node.js (Intermediate)",
     issuer: "HackerRank",
     status: "completed",
     date: "2026",
@@ -58,7 +58,7 @@ const certifications: Certification[] = [
     ],
   },
   {
-    name: "Javascript Intermediate",
+    name: "Javascript (Intermediate)",
     issuer: "HackerRank",
     status: "completed",
     date: "2025",
